@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Course Booking Website",
+    "imageSrc": "projects/pr-a.png",
+    "description": "A full-stack course booking application developed using modern technologies, allowing users to browse and register for various courses with ease.",
+    "skills": ["Vite + React", "Express.js", "Node.js", "MongoDB", "CSS"],
+    "source": "https://github.com/PavishK/Final_year_project_1"
+  },
+  {
+    "title": "Bakery Website",
+    "imageSrc": "projects/pr-b.png",
+    "description": "A responsive and feature-rich bakery website created with the MERN stack, showcasing products and enhancing the overall learning experience.",
+    "skills": ["Angular", "Express.js", "Node.js", "MongoDB", "Tailwind CSS"],
+    "source": "https://github.com/PavishK/Final_year_project_2"
+  },
+  {
+    "title": "E-commerce Website",
+    "imageSrc": "projects/pr-c.png",
+    "description": "A responsive and scalable e-commerce website developed using the MERN stack, awarded First Prize for its clean design and seamless functionality.",
+    "skills": ["Vite+React", "Express.js", "Node.js", "MongoDB", "CSS"],
+    "source": "https://github.com/PavishK/project_falls_ecommerce"
+  }
+  
+]
