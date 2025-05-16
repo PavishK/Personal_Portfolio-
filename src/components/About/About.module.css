@@ -66,6 +66,12 @@
   font-size: 25px;
 }
 
+.downloadLink{
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
