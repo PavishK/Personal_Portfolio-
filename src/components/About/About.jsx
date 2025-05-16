@@ -2,8 +2,17 @@ import React from "react";
 
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
+import resume from './Resume_1_Page.pdf';
 
 export const About = () => {
+
+  const handleDownload=()=>{
+    const link=document.createElement('a');
+    link.href=resume;
+    link.download='Pavish_Resume.pdf';
+    link.click();
+  }
+  
   return (
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
@@ -37,8 +46,7 @@ export const About = () => {
               <h3>Download CV</h3>
               <p>
                 <a
-                  href="assets/about/Resume_1_Page.pdf"
-                  download
+                  onClick={handleDownload}
                   className={styles.downloadLink}
                 >
                   Click here to download my resume

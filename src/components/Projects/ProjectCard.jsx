@@ -28,6 +28,11 @@ export const ProjectCard = ({
         <a href={source} className={styles.link}>
           Source
         </a>
+        {demo &&
+        <a href={demo} className={styles.link}>
+          Demo
+        </a>
+        }
       </div>
     </div>
   );

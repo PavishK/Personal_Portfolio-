@@ -19,6 +19,13 @@
     "description": "A responsive and scalable e-commerce website developed using the MERN stack, awarded First Prize for its clean design and seamless functionality.",
     "skills": ["Vite+React", "Express.js", "Node.js", "MongoDB", "CSS"],
     "source": "https://github.com/PavishK/project_falls_ecommerce"
-  }
-  
+  },
+  {
+  "title": "Project To-Do List",
+  "imageSrc": "projects/pr-d.png",
+  "description": "A modern and efficient To-Do List application built using Vite + React, GraphQL, and Apollo Client, styled with TailwindCSS and powered by a Node.js backend.",
+  "skills": ["Vite+React", "Node.js", "GraphQL", "Apollo Client", "TailwindCSS"],
+  "source": "https://github.com/PavishK/To-Do-Smart",
+  "demo":"https://to-do-smart.onrender.com/"
+} 
 ]

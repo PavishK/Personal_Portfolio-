@@ -42,5 +42,9 @@
   {
     "title": "Python",
     "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "GraphQl",
+    "imageSrc": "skills/graphQl.png"
   }
 ]
