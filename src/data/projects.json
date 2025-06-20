@@ -27,5 +27,13 @@
   "skills": ["Vite+React", "Node.js", "GraphQL", "Apollo Client", "TailwindCSS"],
   "source": "https://github.com/PavishK/To-Do-Smart",
   "demo":"https://to-do-smart.onrender.com/"
-} 
+},
+{
+  "title": "CGVTT - TrainingTrains Certification Portal",
+  "imageSrc": "projects/pr-e.png",
+  "description": "A full-stack web application built using the MERN stack with MySQL integration for TrainingTrains. It allows users to upload course tasks, request enrollment, and receive verifiable certificates. The platform features certificate generation and validation, a modern UI with React and TailwindCSS, and a secure backend with Node.js and Express.",
+  "skills": ["React", "Node.js", "Express.js", "MySQL", "MongoDB", "TailwindCSS"],
+  "source": "https://github.com/PavishK/CGTT_Project",
+  "demo": "https://cgtt-client.onrender.com"
+}
 ]
