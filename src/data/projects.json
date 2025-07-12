@@ -35,5 +35,13 @@
   "skills": ["React", "Node.js", "Express.js", "MySQL", "MongoDB", "TailwindCSS"],
   "source": "https://github.com/PavishK/CGTT_Project",
   "demo": "https://cgtt-client.onrender.com"
+},
+{
+  "title": "PassNeko - Secure Password Manager",
+  "imageSrc": "projects/pr-f.png",
+  "description": "PassNeko is a secure password manager built with Next.js and MySQL, designed to store user credentials in an encrypted format using bcrypt and crypto modules. It features user registration and login, password encryption that even the platform can’t decrypt, and a responsive, minimalist UI built with TailwindCSS. With a focus on privacy and simplicity, PassNeko helps users manage their credentials securely and efficiently.",
+  "skills": ["Next.js", "MySQL", "TailwindCSS", "bcryptjs", "crypto-js"],
+  "source": "https://github.com/PavishK/PassNeko",
+  "demo": "https://pass-neko.vercel.app/"
 }
 ]
