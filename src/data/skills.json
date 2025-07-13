@@ -20,6 +20,10 @@
     "imageSrc": "skills/angular.png"
   },
   {
+    "title": "Next",
+    "imageSrc": "skills/nextjs.png"
+  },
+  {
     "title": "Node",
     "imageSrc": "skills/node.png"
   },
