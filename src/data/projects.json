@@ -59,5 +59,13 @@
   "skills": ["Next.js", "TypeScript", "MySQL", "Prisma", "Express.js", "Node.js", "TailwindCSS", "Next-Auth (Google)", "Cloudinary"],
   "source": "https://github.com/PavishK/PixelNoSekai",
   "demo": "https://pixel-no-sekai.vercel.app"
+},
+{
+  "title": "Employee Management System",
+  "imageSrc": "projects/pr-i.png",
+  "description": "The Employee Management System (EMS) is a full-stack web application designed to simplify employee data management. It allows administrators to add, update, and delete employees, while providing employees with the ability to view their profiles. Built with React.js for the frontend and Spring Boot with Maven for the backend, it integrates MySQL for data storage and TailwindCSS for a responsive and modern UI.",
+  "skills": ["React.js", "Spring Boot", "Maven", "MySQL", "TailwindCSS", "REST API", "Java","Firebase (Google)"],
+  "source": "https://github.com/PavishK/Employee_Management_System",
+  "demo": "https://employee-management-system-client-abji.onrender.com"
 }
 ]

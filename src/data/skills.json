@@ -32,6 +32,10 @@
     "imageSrc": "skills/node.png"
   },
   {
+    "title": "SpringBoot",
+    "imageSrc": "skills/spring.png"
+  },
+  {
     "title": "MySQL",
     "imageSrc": "skills/mysql.svg"
   },
