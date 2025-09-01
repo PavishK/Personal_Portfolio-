@@ -20,14 +20,6 @@
     "skills": ["Vite+React", "Express.js", "Node.js", "MongoDB", "CSS"],
     "source": "https://github.com/PavishK/project_falls_ecommerce"
   },
-  {
-  "title": "Project To-Do List",
-  "imageSrc": "projects/pr-d.png",
-  "description": "A modern and efficient To-Do List application built using Vite + React, GraphQL, and Apollo Client, styled with TailwindCSS and powered by a Node.js backend.",
-  "skills": ["Vite+React", "Node.js", "GraphQL", "Apollo Client", "TailwindCSS"],
-  "source": "https://github.com/PavishK/To-Do-Smart",
-  "demo":"https://to-do-smart.onrender.com/"
-},
 {
   "title": "CGVTT - TrainingTrains Certification Portal",
   "imageSrc": "projects/pr-e.png",
@@ -67,5 +59,13 @@
   "skills": ["React.js", "Spring Boot", "Maven", "MySQL", "TailwindCSS", "REST API", "Java","Firebase (Google)"],
   "source": "https://github.com/PavishK/Employee_Management_System",
   "demo": "https://employee-management-system-client-abji.onrender.com"
+},
+{
+  "title": "ToDo-SMART",
+  "imageSrc": "projects/pr-d.png",
+  "description": "A smart and modern To-Do List application built with Next.js, styled using TailwindCSS, secured with NextAuth, powered by MongoDB, and enhanced with Gemini AI for task insights.",
+  "skills": ["Next.js", "TailwindCSS", "NextAuth", "MongoDB", "Gemini AI"],
+  "source": "https://github.com/PavishK/ToDO-SMART",
+  "demo": "https://to-do-smart.vercel.app/"
 }
 ]
