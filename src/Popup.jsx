@@ -1,15 +1,17 @@
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./index.css";
 
 export default function Popup() {
-  const [showPopup, setShowPopup] = useState(true);
 
   const handleRedirect = () => {
-    window.location.href = "https://my-portfolio-six-blond-8uma4k9cc7.vercel.app/"; // replace with your new website
+    window.location.href = "https://pavishk.dev";
   };
 
-  if (!showPopup) return null;
+  useEffect(()=>{
+    setTimeout(()=>handleRedirect(),2500);
+  },[])
+
 
   return (
     <div className="popup-overlay">
@@ -18,11 +20,12 @@ export default function Popup() {
         <p>This website is no longer available. Please move to my new website.</p>
         <div className="popup-actions">
           <button className="btn-primary" onClick={handleRedirect}>
-            Go to New Website
+            Go to pavishk.dev
           </button>
-          <button className="btn-secondary" onClick={() => setShowPopup(false)}>
-            Close
-          </button>
+        </div>
+        <div className="redirect-div">
+          <div className="redirect-loader"></div>
+          <span>redirecting to pavishk.dev</span>
         </div>
       </div>
     </div>

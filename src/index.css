@@ -87,3 +87,50 @@ html {
   from { opacity: 0; transform: scale(0.9); }
   to { opacity: 1; transform: scale(1); }
 }
+
+
+/* Card Design */
+
+
+
+.bg-image{
+    background-image: url("/bg-sg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.redirect-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  column-gap:6px;
+  margin-top: 10px;
+}
+
+.redirect-loader {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 100%;
+  border: 3px solid red;
+  border-left-color: white;
+  animation: rotate 1s linear infinite;
+} 
+
+@keyframes rotate {
+  from{
+    transform: rotate(0deg);
+  }
+  50%{
+    border-radius: 40%;
+    transform: rotate(-60deg);
+  }
+  100%{
+    transform: rotate(300deg);
+    border-radius: 40%;
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
